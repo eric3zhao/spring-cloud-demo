@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+      - dev
+  application:
+    name: user-provider
+  cloud:
+    config:
+      uri: http://127.0.0.1:8080
